@@ -34,6 +34,7 @@ img {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
 }
 
 
@@ -120,13 +121,59 @@ hr {
  
   .navvbar{
       margin-top: 10px;
-    
+    justify-content: center;
   }
   .fa-navicon:before, .fa-reorder:before, .fa-bars:before{
       color: white;
       content: "\f0c9";
   }
   
+
+
+.front_wall{
+    margin-top: 20px;
+display: flex;
+background-color: #7dcaba;
+height: 500px;
+width: 104%;
+justify-content:center;
+}
+
+
+.textt{
+    align-self: center;
+    width: 52%;
+    text-align: center;
+}
+
+.best_fashion{
+    font-size: 68px;
+color: black;
+margin-left: 8%;
+text-align: left;
+margin-bottom: 10px;
+}
+.lorem{
+    margin-left: 8%;
+    text-align: justify;
+    font-size: 20px;
+color: black;
+}
+
+.textt button{
+    margin-top: 20px;
+    position: absolute;
+    left: 60px;
+    background-color: orangered;
+    padding: 14px 40px; 
+    border-radius: 5px;
+    color:white;
+} 
+.textt img{
+    height: 500px;
+}
+
+
 /*-----------*/
 
 
@@ -166,7 +213,10 @@ hr {
 
 /*---------------------------------------------*/
 @media screen and (min-width: 768px) {
-    
+    .topnav a {
+        padding: 14px 12px;
+    }
+
     .contact_socialmedia {
         width: 100%;
         justify-content: end;
@@ -198,6 +248,9 @@ hr {
     .navvbar{
         
       margin-left: 60px;
+    }
+    .topnav a {
+        padding: 14px 18px;
     }
 
 }

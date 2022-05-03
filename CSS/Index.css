@@ -6,6 +6,8 @@
     font-size: 16px;
 }
 
+
+
 body {
 
     font-family: "Rubik", sans-serif;
@@ -147,6 +149,40 @@ hr {
     
 }
 
+.head_color{
+    font-family: 'Josefin Sans', sans-serif;
+
+    font-size:39px;
+       color: #0c2461;
+width: 60%;
+       text-align: center;
+       margin-bottom: 10px;
+}
+
+.des_color{
+    color:#3c6382;
+}
+
+.about_watch{
+    margin-top: 20px;
+}
+
+.orang_text{
+    font-family: 'Josefin Sans', sans-serif;
+    color: orangered;
+    margin-bottom: 10px;
+}
+
+.def_color
+{
+    margin-bottom: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: #0c2461;
+}
+.siz{
+    width:91%;
+}
 
 /*-----------*/
 
@@ -226,6 +262,7 @@ hr {
         padding: 14px 12px;
     }
 
+
     .contact_socialmedia {
         margin-top: 10px;
         width: 100%;
@@ -243,17 +280,20 @@ margin-left: 15%;
         text-align: center;
     }
     .front_wall{
+        
         height: 350px;
        width: 100%;
     }
 .textt{
+    
     align-self: center;
     width: 50%;
+    
 }
 
 
     .textt img{
-        margin-top: 10px;
+        margin-top: 47px;
         height: 300px;
         display: block;
         margin-left: auto;
@@ -280,6 +320,32 @@ margin-left: 15%;
         margin-left: auto;
         margin-right: auto;
     }
+ .about_watch{
+     margin-bottom: 15px;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+ }
+ .just{
+     width: 60%;
+     text-align: center;
+     margin-bottom: 20px;
+ }
+
+ .row_design{
+   display: flex;
+   
+   
+   justify-content:space-between;
+}
+.watch_description{
+    
+    text-align: center;
+}
+.watch_description i{
+    font-size: 50px;
+    margin-bottom: 10px;   
+}
 
 
 }

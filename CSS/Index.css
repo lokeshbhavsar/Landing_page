@@ -128,49 +128,23 @@ hr {
       content: "\f0c9";
   }
   
-
-
 .front_wall{
-    margin-top: 20px;
-display: flex;
-background-color: #7dcaba;
-height: 500px;
-width: 104%;
-justify-content:center;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    
+    height: 800px;
+    background-color:#7dcaba;
 }
-
-
-.textt{
-    align-self: center;
-    width: 52%;
-    text-align: center;
-}
-
-.best_fashion{
-    font-size: 68px;
-color: black;
-margin-left: 8%;
-text-align: left;
-margin-bottom: 10px;
-}
-.lorem{
-    margin-left: 8%;
-    text-align: justify;
-    font-size: 20px;
-color: black;
-}
-
 .textt button{
-    margin-top: 20px;
-    position: absolute;
-    left: 60px;
-    background-color: orangered;
-    padding: 14px 40px; 
-    border-radius: 5px;
-    color:white;
-} 
-.textt img{
-    height: 500px;
+    display: inline-block;
+    background-color: #ff6348;
+    margin: 30px 0 0;
+    color: #fff;
+    padding: 10px 30px 15px;
+    border-radius: 4px;
+    font-weight: 600;
+    
 }
 
 
@@ -207,6 +181,41 @@ color: black;
       text-align: center;
       font-weight:bolder;
     }
+    .front_wall{
+        width: 122%;
+        height: 650px;
+        flex-direction: column;
+    }
+
+
+
+    .textt img{
+        margin-top: 10px;
+        height: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .best_fashion{
+        font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+        color: #0c2461;;
+        text-align: center;
+     font-size: 40px;
+     margin-bottom: 10px;
+    }
+    
+    .lorem{
+        text-align: center;
+        color: #3c6382;
+    }
+
+    .textt button{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
 
 }
@@ -231,6 +240,40 @@ color: black;
     .inlin {
         margin-top: 0px;
         text-align: center;
+    }
+    .front_wall{
+        height: 650px;
+       width: 100%;
+    }
+
+
+
+    .textt img{
+        margin-top: 10px;
+        height: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .best_fashion{
+        font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+        color: #0c2461;;
+        text-align: center;
+     font-size: 40px;
+     margin-bottom: 10px;
+    }
+    
+    .lorem{
+        text-align: center;
+        color: #3c6382;
+    }
+
+    .textt button{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 

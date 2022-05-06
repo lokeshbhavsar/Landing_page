@@ -448,9 +448,36 @@ hr {
 
     .sub_feature {
         width: 98%;
-
-
     }
+
+    .why_choose{
+     flex-direction: column;
+    }
+.photo_description .orang_text{
+    font-size:13px;
+}
+
+.head_color_v5{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.why_descripton{
+    flex-direction: column;
+    
+}
+
+.why_features{
+    width: 100%;
+    text-align: left;
+}
+
+.why_features i{
+    display: inline;
+}
+.why_features .inlinep{
+    display: inline;
+}
 
 }
 

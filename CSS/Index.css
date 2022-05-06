@@ -162,6 +162,9 @@ hr {
     margin-bottom: 10px;
 }
 
+
+
+
 .small_head_color {
     font-family: 'Josefin Sans', sans-serif;
 
@@ -264,6 +267,49 @@ hr {
     margin-bottom: 20px;
 }
 
+
+.why_choose{
+    padding: 30px;
+    width: 100%;
+    display: flex;
+
+}
+
+.setwidth{
+    
+    align-self: center;
+}
+.photo_description{
+    margin: 20px;
+}
+
+.head_color_v5 {
+    font-family: 'Josefin Sans', sans-serif;
+
+    font-size: 45px;
+    color: #0c2461;
+    
+   
+    margin-bottom: 10px;
+}
+
+.why_descripton{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.why_features{
+    margin: 30px 0 30px 0;
+    width: 40%;
+    align-self: center;
+    text-align: center;
+}
+
+.why_features{
+ font-size: 25px;
+}
 /*-----------*/
 
 

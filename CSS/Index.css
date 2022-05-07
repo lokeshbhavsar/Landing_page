@@ -470,6 +470,40 @@ textarea {
 .width_Control{
     width: 150px;
 }
+
+
+.last_page{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.last_compartment{
+    width: 100%;
+    display: flex;
+}
+.last_details{
+    
+    display: flex;
+    background-color: #3c6382;
+}
+
+.sixty_width{
+    width: 60%;
+    background-color: #0c2461;
+}
+.fourty{
+    width: 40%;
+}
+
+.details_description{
+    width: 50%;
+    align-self: center;
+    
+}
+.details_description p{
+margin: 15px 0 15px 0;
+}
+
 /*-----------*/
 
 

@@ -476,33 +476,91 @@ textarea {
     display: flex;
     width: 100%;
     flex-direction: column;
+    background-color: #f6f3ea;
+    padding-top: 50px;
 }
 .last_compartment{
     width: 100%;
     display: flex;
+    justify-content: center;
 }
 .last_details{
-    
+
     display: flex;
-    background-color: #3c6382;
+    
+
+
 }
 
 .sixty_width{
     width: 60%;
-    background-color: #0c2461;
+    
+
 }
 .fourty{
     width: 40%;
+    flex-direction: column;
 }
 
 .details_description{
     width: 50%;
     align-self: center;
-    
+    margin: 15px;
 }
 .details_description p{
 margin: 15px 0 15px 0;
 }
+
+.fourty input{
+    
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.fourty p{
+    margin-top: 15px;
+}
+
+.main_icon{
+  
+    background-color: white;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+}
+
+.main_icon p{
+text-align: center;
+
+}
+
+.social_icons{
+    display: flex;
+    
+}
+
+main_icon{
+    align-self: center;
+}
+.lastest ul li .fa {
+    border-radius: 5px;
+    padding: 10px;
+
+    width: 50px;
+    text-align: center;
+    border-radius: 100%;
+background-color: white;
+    margin: 5px 2px;
+    color: black;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+
+.last_compartment span{
+    color: orangered;
+}
+
 
 /*-----------*/
 

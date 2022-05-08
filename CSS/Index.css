@@ -34,7 +34,7 @@ img {
 
 .container {
 
-
+   width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -213,7 +213,7 @@ hr {
     padding-top: 15px;
     flex-direction: column;
     display: flex;
-    width: 100%;
+    width: auto;
     background-color: #f6f3ea;
     height: auto;
     text-align: center;
@@ -565,6 +565,28 @@ background-color: white;
 .top_mar{
     margin-top: 20px;
 }
+
+
+
+
+.say p{
+    display: inline;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*-----------*/
 
 
@@ -613,7 +635,7 @@ background-color: white;
 
     .front_wall {
 
-        width: 100%;
+        width: auto;
         height: auto;
         flex-direction: column;
     }
@@ -828,11 +850,13 @@ float:left;
     .topnav a {
         padding: 14px 12px;
     }
-    
+    .say ul li{
+        display: block;
+    }
 
     .contact_socialmedia {
         margin-top: 10px;
-        width: 100%;
+        width: 50%;
         justify-content: center;
 
     }
@@ -855,7 +879,7 @@ float:left;
     .front_wall {
 
         height: 350px;
-        width: 100%;
+        width: auto;
     }
 
     .textt {
@@ -931,6 +955,12 @@ float:left;
     align-self: center;
     text-align: center;
 }
+.say p{
+    font-size: 10px;
+    
+}
+
+
 }
 
 
@@ -941,7 +971,9 @@ float:left;
         float: left;
         margin-right: 10px;
     }
-
+    .about_watch{
+        width: 100%;
+    }
     ul li {
         display: inline;
     }
@@ -975,7 +1007,9 @@ float:left;
     .cont_social ul li {
         font-size: 18px;
     }
-
+.about_watch{
+    width: 100%;
+}
 
     .inlin ul li .fa{
         font-size: 18px;
@@ -1093,7 +1127,9 @@ justify-content: center;
     width: 50%;
 }
 
-
+.say ul li{
+    display: inline;
+}
 
 
 

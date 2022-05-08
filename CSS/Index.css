@@ -6,7 +6,9 @@
     font-size: 16px;
 }
 
-
+hr.solid {
+    border-top: 3px solid #bbb;
+  }
 
 body {
 
@@ -698,6 +700,8 @@ background-color: white;
     .feature_description {
         flex-direction: column;
 
+
+
     }
 
 
@@ -967,4 +971,134 @@ float:left;
 }
 
 /*---------------------------------------------*/
-@media screen and (min-width: 1200px) {}
+@media screen and (min-width: 1200px) {
+    .cont_social ul li {
+        font-size: 18px;
+    }
+
+
+    .inlin ul li .fa{
+        font-size: 18px;
+        padding: 5px;
+    }
+ 
+    .topnav a {
+        padding-top: 20px;
+        font-size: 20px;
+    }
+
+    .topnav a img{
+       height: 20px;
+       width: 180px;
+    }
+
+.best_fashion {
+    font-size: 40px;
+}
+
+.textt .lorem{
+    font-size: 18px;
+}
+
+.textt button{
+    border-color: orangered;
+    padding: 15px;
+    font-size: 15px;
+    
+}
+
+.textt img{
+    height: 300px;
+    width: 200px;
+}
+
+.just{
+    font-size: 20px;
+}
+
+
+.watch_compartment{
+    display: flex;
+    justify-content: space-around;
+}
+
+.watch_description{
+    margin: 20px;
+    align-self: center;
+}
+
+.watch_description i {
+    font-size: 80px;
+}
+
+.watch_description .def_color{
+    font-size: 30px;
+}
+
+ .des_color{
+    font-size: 20px;
+}
+
+.orang_text{
+    font-size: 20px;
+}
+
+
+.small_head_color{
+    margin-top: 10px;
+    font-size: 30px;
+    margin: 5px 0 5px 0;
+}
+
+
+.why_choose{
+    
+    
+    display: flex;
+justify-content: center;
+}
+.why_choose{
+     width: 100%;
+    }
+.photo_description{
+    margin: 0px;
+}
+
+.setwidth{
+    
+    align-self: none;
+}
+
+.photo_description{
+    margin: 20px;
+}
+.features{
+    justify-content: center;
+}
+
+.sub_feature{
+    width: 30%;
+    margin: 0 60px 0 60px;
+}
+
+.feature_description{
+   justify-content: center;
+}
+
+.col_flex{
+    justify-content: center;
+}
+
+.sub_feature{
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+}

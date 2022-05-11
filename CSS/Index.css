@@ -1020,8 +1020,10 @@ float:left;
         margin-top: 10px;
         width: 50%;
         justify-content: center;
-
+flex-direction: row;
     }
+    
+
 
     .cont_social {
         width: 50%;
@@ -1173,11 +1175,18 @@ float:left;
 
 /*---------------------------------------------*/
 @media screen and (min-width: 1200px) {
+
+
+
     .cont_social ul li {
         font-size: 18px;
     }
 .contact_socialmedia{
     width: 50%;
+}
+
+.say{
+    justify-content: start;
 }
 
     .inlin ul li .fa{
@@ -1336,6 +1345,9 @@ justify-content: center;
     width: 50%;
 }
 
+.topnav{
+    align-self: center;
+}
 
 
 }

@@ -54,7 +54,7 @@ img {
 
 
 .contact_socialmedia {
-
+    width: 50%;
     display: flex;
 
     flex-wrap: wrap;
@@ -149,7 +149,7 @@ hr {
     margin-top: 15px;
     display: flex;
     justify-content: center;
-
+    width: 50px;
     height: 800px;
     background-color: #7dcaba;
 }
@@ -421,6 +421,7 @@ hr {
 
 
 .contact{
+    justify-content: center;
     display: flex;
    padding: 5%;
    flex-direction: column;
@@ -428,7 +429,10 @@ hr {
 
 .contact_compartment{
 display: flex;
+width: 50%;
 flex-direction: column;
+justify-content: center;
+align-self: center;
 }
 .seventypercent{
     width: 60%;
@@ -745,13 +749,19 @@ text-align: left;
 
 /*---------------------------------------------*/
 @media screen and (max-width: 767px) {
-
+.navvbar{
+    width: 100%;
+}
 
     .contact_socialmedia {
         flex-direction: column;
-        flex-wrap: wrap;
+        
+        width: 50%;
     }
 
+    .cont_social{
+        flex-direction: column;
+    }
     .contact_socialmedia {
         flex-direction: column;
         flex-wrap: wrap;
@@ -787,7 +797,7 @@ text-align: left;
 
     .front_wall {
 
-        width: auto;
+        width: 100%;
         height: auto;
         flex-direction: column;
     }
@@ -828,7 +838,7 @@ text-align: left;
 
     .about_watch {
         display: flex;
-
+        
         flex-direction: column;
         width: 100%;
     }
@@ -963,7 +973,7 @@ text-align: left;
     width: 100%;
 }
 .contact_compartment{
-    margin: 10px 0 10px 0;
+    width: 50%;
 }
 
 .last_page{
@@ -1031,7 +1041,7 @@ float:left;
     .front_wall {
 
         height: 350px;
-        width: auto;
+        width: 100%;
     }
 
     .textt {
@@ -1055,7 +1065,7 @@ float:left;
         font-family: 'Josefin Sans', sans-serif;
         font-weight: bold;
         color: #0c2461;
-        ;
+        
         text-align: center;
         font-size: 40px;
         margin-bottom: 10px;
@@ -1073,8 +1083,11 @@ float:left;
         margin-right: auto;
     }
 
+    
+
+
     .about_watch {
-        margin-bottom: 15px;
+        
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -1112,6 +1125,9 @@ float:left;
     
 }
 
+.contact{
+    width: 100%;
+}
 
 }
 
@@ -1127,16 +1143,17 @@ float:left;
         width: 100%;
     }
     ul li {
-        display: inline;
+    
+    display: inline;
     }
 
-    .navvbar {
-
-        margin-left: 60px;
-    }
+   .topnav{
+       align-self: center;
+   }
+   
 
     .topnav a {
-        padding: 14px 18px;
+        
     }
 
     li i {
@@ -1147,7 +1164,7 @@ float:left;
     }
     .lastest ul li .fa {
         
-    float: none;
+    
        
     }
 
@@ -1177,7 +1194,10 @@ float:left;
        height: 20px;
        width: 180px;
     }
-
+    .navvbar {
+        width: 50%;
+        
+    }
 .best_fashion {
     font-size: 40px;
 }
@@ -1203,7 +1223,7 @@ float:left;
 }
 
 .about_watch{
-    width: auto;
+    width: 50%;
     
 }
 .watch_compartment{
@@ -1255,7 +1275,7 @@ float:left;
 justify-content: center;
 }
 .why_choose{
-     width: 44%;
+     width:50%;
     }
 .photo_description{
     margin: 0px;
@@ -1271,7 +1291,7 @@ justify-content: center;
 }
 .features{
     justify-content: center;
-    width: 44%;
+    width:50%;
     padding: 0;
     margin: 0;
 }
@@ -1287,7 +1307,7 @@ justify-content: center;
 }
 #slider
 {
-    width: 44%;
+    width:50%;
 }
 .col_flex{
     justify-content: center;
@@ -1296,19 +1316,26 @@ justify-content: center;
 .sub_feature{
     width: 33%;
 }
-.feature_details{}
+
 .say ul li{
     display: inline;
 }
 
 
 .shipping{
-    width: 44%;
+    width:50%;
 }
 
 .last_page{
-    width: 44%;
+    width:50%;
 }
+.front_wall{
+    width: 50%;
+}
+.contact{
+    width: 50%;
+}
+
 
 
 }

@@ -1125,7 +1125,13 @@ float:left;
     width: 100%;
 }
 
+.contact_compartment{
+    width: 100%;
+}
 
+.name_address{
+    margin-top: 20px;
+}
 .contact_socialmedia {
     margin-top: 10px;
     width: 100%;

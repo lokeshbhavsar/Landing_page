@@ -1012,13 +1012,19 @@ float:left;
     .topnav a {
         padding: 14px 12px;
     }
+ 
     .say ul li{
-        display: block;
+        display: inline;
+        font-size: 25px;
     }
 
+    .say ul li p{
+      
+        font-size: 15px;
+    }
     .contact_socialmedia {
         margin-top: 10px;
-        width: 50%;
+        width: 100%;
         justify-content: center;
 flex-direction: row;
     }
@@ -1176,8 +1182,7 @@ flex-direction: row;
 /*---------------------------------------------*/
 @media screen and (min-width: 1200px) {
 
-
-
+   
     .cont_social ul li {
         font-size: 18px;
     }
@@ -1186,7 +1191,7 @@ flex-direction: row;
 }
 
 .say{
-    justify-content: start;
+    justify-content: center;
 }
 
     .inlin ul li .fa{
@@ -1204,7 +1209,7 @@ flex-direction: row;
        width: 180px;
     }
     .navvbar {
-        width: 50%;
+        width: 25%;
         
     }
 .best_fashion {
@@ -1345,9 +1350,13 @@ justify-content: center;
     width: 50%;
 }
 
-.topnav{
-    align-self: center;
+.navvbar{
+    
+    
 }
+
+
+
 
 
 }

@@ -1196,11 +1196,21 @@ flex-direction: row;
         font-size: 18px;
     }
 .contact_socialmedia{
-    width: 50%;
+    width: 100%;
+
+  
+}
+
+.navvbar{
+   align-self: center;
+}
+
+.topnav{
+    align-self: flex-end;
 }
 
 .say{
-    justify-content: center;
+    align-self: center;
 }
 
     .inlin ul li .fa{
@@ -1217,10 +1227,7 @@ flex-direction: row;
        height: 20px;
        width: 180px;
     }
-    .navvbar {
-        width: 25%;
-        
-    }
+    
 .best_fashion {
     font-size: 40px;
 }
@@ -1250,9 +1257,9 @@ flex-direction: row;
     
 }
 .watch_compartment{
-    width:50%;
+    width:100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .row_design
@@ -1263,7 +1270,7 @@ flex-direction: row;
 }
 
 .row_design .watch_description{
-    width: 50%;
+    width: 100%;
     text-align: center;
 }
 
@@ -1298,7 +1305,7 @@ flex-direction: row;
 justify-content: center;
 }
 .why_choose{
-     width:50%;
+     width:100%;
     }
 .photo_description{
     margin: 0px;
@@ -1346,25 +1353,44 @@ justify-content: center;
 
 
 .shipping{
-    width:50%;
+    width:100%;
+}
+
+.discount_compartment{
+    justify-content: space-around;
 }
 
 .last_page{
-    width:50%;
+    width:100%;
 }
 .front_wall{
-    width: 50%;
+    width: 100%;
 }
 .contact{
-    width: 50%;
+    width: 100%;
 }
 
 .navvbar{
+    width:auto;
     
-    
+}
+.about_watch{
+    width: 100%;
+    justify-content: space-around;
+}
+.features{
+    width: 100%;
+}
+
+.why_choose{
+    width: 100%;
+    justify-content: space-around;
 }
 
 
+#slider{
+    width: 100%;
+}
 
 
 
